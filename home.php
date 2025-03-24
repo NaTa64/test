@@ -62,9 +62,9 @@ require("koneksi/koneksi.php"); // Including the db Connection
     <div class="container text-center" style="padding:200;">
       <h1 class="mb-1">E-Commerce Site</h1>
       <h3 class="mb-5">
-        Order Food you like
+        Pesan Makanan Yang Kamu Suka
       </h3>
-      <a class="btn btn-primary " href="menu.php">Go to Menu</a>
+      <a class="btn btn-primary " href="menu.php">Pergi Ke Menu</a>
 
     </div>
     <div class="overlay"></div>

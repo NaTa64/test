@@ -43,15 +43,15 @@ if (!isset($_SESSION['username'])) {
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li><a href="home.php">Home</a></li>
-            <li class="active"><a href="menu.php">Menu Makanan</a></li>
+            <li class="active"><a href="menu.php">Menu Mukbang</a></li>
             <li><a href="contact.php">Kontak</a></li>
             <li><a href="#">Riwayat Pemesanan</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li style="top:7px;">
+            <li style="top:50px;">
               <form class="form-inline my-2 my-lg-0" method="get" action="results.php" enctype="multipart/form-data">
                 <input class="form-control" type="search" name="user_query" placeholder="Search" aria-label="Search">
-                <button class="btn btn-primary" name="search" type="submit">Search</button>
+                <button class="btn btn-primary" name="search" type="submit"> mencari </button>
               </form>
             </li>
             
@@ -68,7 +68,7 @@ if (!isset($_SESSION['username'])) {
         </div>
       </div>
       <div class="collapse navbar-collapse" style="text-align:center; background-color:#eeeeee; ">
-        <h4>Selamat datang <?php echo $_SESSION['cust_name']; ?></h4>
+        <h2>tes bang <?php echo $_SESSION['cust_name']; ?></h2>
       </div>
     </nav>
 

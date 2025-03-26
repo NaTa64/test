@@ -53,7 +53,7 @@ require("koneksi/koneksi.php"); // Including the db Connection
           <li style="top:7px;">
             <form class="form-inline my-2 my-lg-0" method="get" action="results.php" enctype="multipart/form-data">
               <input class="form-control" type="search" name="user_query" placeholder="Search" aria-label="Search">
-              <button class="btn btn-primary" name="search" type="submit">Search</button>
+              <button class="btn btn-primary" name="search" type="submit">Cari</button>
             </form>
           <li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
         </ul>

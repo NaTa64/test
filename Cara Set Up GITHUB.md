@@ -32,7 +32,7 @@ cara memasukkan project ke github dan me-remote
 git init
 git add .
 git commit -m "first commit"
-git branch -M main
+git branch -M main //mengubah nama branch utama menjadi main JIKA BERBEDA
 git remote add origin <link repo>
 git push -u origin main
 
